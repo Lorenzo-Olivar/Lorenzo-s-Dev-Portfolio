@@ -17,6 +17,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ## Credits
 
 Professional README Guide | The Full-Stack Blog (https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+
 CSS Tools: Reset CSS (https://meyerweb.com/eric/tools/css/reset/)
 
 ## License
