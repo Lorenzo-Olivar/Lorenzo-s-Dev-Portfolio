@@ -4,14 +4,14 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/*-- Header Style -- */
 header {
     position: fixed;
     top: 0px;
     left: 20px;
     right: 20px;
     z-index: 1000;
-    height: 50px;
+    height: 65px;
 }
 
 nav {
@@ -19,12 +19,12 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 1px solid #292329;
+    border-bottom: 1px solid black;
 }
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #292329;
+    color:black;
     font-size: 150%;
     font-weight: 400;
     letter-spacing: 2px;
@@ -47,6 +47,55 @@ nav ul li {
 
 nav ul a {
     text-decoration: none;
-    color: #292329;
+    color: black;
     text-shadow: 1px 1px 2px #aaa492;
+}
+
+.header-blur {
+    position: absolute;
+    top: 0;
+    right: -20px;
+    bottom: 0;
+    left: -20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}
+/*-- Background Image Style --*/
+.bg-img {
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bg-img h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 600%;
+    font-weight: 700;
+    text-shadow: 4px 4px 3px #aaa492;
+    margin: 20px;
+}
+
+.bg-img h3 {
+    width: 700px;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 200%;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px #aaa492;
+    margin: 20px;
+}
+
+/*-- Main Style -- */
+
+main {
+    width: 100%;
+    background-color: #aaa492;
 }
