@@ -76,18 +76,18 @@ nav ul a {
 .bg-img h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    font-size: 600%;
+    font-size: 4.8vw;
     font-weight: 700;
     text-shadow: 4px 4px 3px #aaa492;
     margin: 20px;
 }
 
 .bg-img h3 {
-    width: 700px;
     text-align: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    font-size: 200%;
+    font-size: 1.7vw;
+    max-width: 37vw;
     font-weight: 700;
     text-shadow: 2px 2px 3px #aaa492;
     margin: 20px;
