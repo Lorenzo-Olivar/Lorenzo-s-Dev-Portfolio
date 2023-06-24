@@ -76,26 +76,28 @@ nav ul a {
 .bg-img h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    font-size: 4.8vw;
+    font-size: 4.67vw;
     font-weight: 700;
     text-shadow: 4px 4px 3px #aaa492;
-    margin: 20px;
+    margin: 15px;
 }
 
 .bg-img h3 {
     text-align: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    font-size: 1.7vw;
+    font-size: 1.75vw;
     max-width: 37vw;
     font-weight: 700;
     text-shadow: 2px 2px 3px #aaa492;
-    margin: 20px;
+    margin: 15px;
 }
 
-/*-- Main Style -- */
+/*-- Main Background Color -- */
 
 main {
     width: 100%;
     background-color: #aaa492;
 }
+
+/*-- ABOUT ME --*/
