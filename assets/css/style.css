@@ -97,7 +97,49 @@ nav ul a {
 
 main {
     width: 100%;
-    background-color: #aaa492;
+    background-color: #f0f2e5;
 }
 
 /*-- ABOUT ME --*/
+
+#about-me {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about-me h4 {
+    border-left: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 350%;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 0px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    height: 160px;
+    width: 1000px;
+}
+
+#about-me p {
+    white-space: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 105%;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    padding: 40px 30px;
+}
+
+/*-- Resume --*/
+
+#resume {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
