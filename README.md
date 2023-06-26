@@ -2,7 +2,11 @@
 
 ## Description
 
-My motivation for making a portfolio webpage is to show my growth as a new developer towards the commutity of developers and future employers. I want my portfolio to showcase my knowledge as well as the rate that I can pick up a new skill or trend within the dev community and workplace. I want to tell a story about my passion and willingness to achieve new heights as a developer and for my future workplace peers to be confident in my abilities both as a developer and a team player. 
+My motivation for making a portfolio webpage is to show my growth as a new developer to the community of developers and future employers. I want my portfolio to showcase my knowledge and the rate to pick up a new skill or trend within the dev community and workplace. I want to tell a story about my passion and willingness to achieve new heights as a developer and for my future workplace peers to be confident in my developer and team player abilities. 
+
+Link to the webpage:
+
+https://lorenzo-olivar.github.io/Lorenzo-s-Dev-Portfolio/
 
 ## Usage
 
