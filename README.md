@@ -7,7 +7,8 @@ My motivation for making a portfolio webpage is to show my growth as a new devel
 ## Usage
 
 This simplistic webpage features buttons linked to projects and socials and text explaining who I am and what I hope to achieve.
-![alt text](assets/images/screenshot1)
+![Screenshot of the beginning of the portfolio homepage](https://github.com/Lorenzo-Olivar/Lorenzo-s-Dev-Portfolio/assets/131014446/72b08fb3-b8c7-464c-8aac-c857fcc74536)
+
 
 ## Credits
 
