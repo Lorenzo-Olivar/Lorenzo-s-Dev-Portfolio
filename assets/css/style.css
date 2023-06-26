@@ -93,6 +93,30 @@ nav ul a {
     margin: 15px;
 }
 
+/*-- Hidden Intro Text --*/
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 300%;
+    font-weight: 700;
+    text-shadow: 4px 4px 3px #aaa492;
+    padding: 40px;
+    text-align: center;
+    display: none;
+}
+
+article h3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 140%;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px #aaa492;
+    margin: 15px;
+    display: none;
+}
+
 /*-- Main Background Color -- */
 
 main {
@@ -114,15 +138,14 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-align: left;
-    font-size: 350%;
-    font-weight: 900;
+    font-size: 280%;
+    font-weight: 700;
     line-height: 1;
     letter-spacing: 0px;
-    padding: 0px 15px;
+    padding: 0px 125px 0px 15px;
     display: flex;
     align-items: center;
-    height: 160px;
-    width: 1000px;
+    height: 110px;
 }
 
 #about-me p {
@@ -133,13 +156,349 @@ main {
     font-size: 105%;
     line-height: 1.5;
     letter-spacing: .5px;
-    padding: 40px 30px;
+    padding: 40px;
 }
 
 /*-- Resume --*/
 
 #resume {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#resume a {
+    display: contents;
+}
+
+#resume a img {
+    border: 5px solid #aaa492;
+    border-radius: 4px;
+    margin: 40px 40px;
+    width: 100vw;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+#resume a img:hover {
+    filter: drop-shadow(0px 0px 2px black);
+}
+
+#resume h5 {
+    border-right: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 280%;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0px;
+    padding: 0px 15px 0px 92px;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+/*== Work ==*/
+
+#work {
+    display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    align-items: center;
+}
+
+#work a {
+    display: contents;
+}
+
+#work a img {
+    border: 5px solid #aaa492;
+    border-radius: 4px;
+    margin: 40px 40px;
+    width: 100vw;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    overflow: hidden;
+}
+
+#work a img:hover {
+    filter: drop-shadow(0px 0px 2px black);
+}
+
+
+#work h6 {
+    border-left: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 280%;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0px;
+    padding: 0px 92px 0px 15px;
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+/*-- Contact Me --*/
+
+#contact-me h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 280%;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 40px;
+}
+
+#contact-me ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+#contact-me ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 125%;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+#contact-me ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/*-- @screen size 992px or smaller --*/
+@media screen and (max-width: 992px) {
+    .bg-img h2 {
+        font-size: 3.67vw;
+    }
+
+    .bg-img h3 {
+        font-size: 1.7vw;
+    }
+}
+
+/*-- @screen size 768px or smaller --*/
+@media screen and (max-width: 768px) {
+    header {
+        position: fixed;
+        top: 0px;
+        left: 20px;
+        right: 20px;
+        z-index: 1000;
+        height: 80px;
+    }
+
+    nav {
+        padding: 10px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid black;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-size: 150%;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px 2px #aaa492;
+        padding: 0px 0px 10px 0px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .bg-img {
+        height: 80vh;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+    .bg-img h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-size: 400%;
+        font-weight: 700;
+        text-shadow: 4px 6px 3px #aaa492;
+        margin: 15px;
+        display: none;
+    }
+
+    .bg-img h3 {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-size: 150%;
+        font-weight: 700;
+        text-shadow: 2px 3px 3px #aaa492;
+        margin: 40px 0px;
+        display: block;
+        max-width: 85vw;
+        display: none;
+    }
+
+    article h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-size: 300%;
+        font-weight: 700;
+        text-shadow: 4px 4px 3px #aaa492;
+        padding: 40px;
+        text-align: center;
+        display: block;
+    }
+    
+    article h3 {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-size: 140%;
+        font-weight: 700;
+        text-shadow: 2px 2px 3px #aaa492;
+        margin: 15px;
+        display: block;
+        padding-bottom: 40px;
+        border-bottom: 2px solid black;
+    }
+
+    #about-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-me h4 {
+        border-left: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: center;
+        font-size: 280%;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: 0px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        height: 100px;
+    }
+
+    #about-me p {
+        white-space: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: left;
+        font-size: 105%;
+        line-height: 1.5;
+        letter-spacing: .5px;
+        padding: 40px;
+        border-bottom: 2px solid black;
+        margin: 0 15px;
+    }
+
+    #resume {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #resume h5 {
+        border-right: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: left;
+        font-size: 280%;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: 0px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        height: 100px;
+    }
+
+    #resume a img {
+        border: 5px solid #aaa492;
+        border-radius: 4px;
+        margin: 40px 40px;
+        width: 92vw;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+    }
+
+    #work {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #work h6 {
+        border-left: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        text-align: center;
+        font-size: 280%;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: 0px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        height: 140px;
+    }
+
+    #work a img {
+        border: 5px solid #aaa492;
+        border-radius: 4px;
+        margin: 40px 40px;
+        width: 92vw;
+        height: 400px;
+        object-fit: cover;
+        object-position: top;
+        overflow: hidden;
+    }
+
+    #contact-me ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 80px;
+        flex-direction: column;
+    }
+
+    #contact-me ul li {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 125%;
+        font-weight: 400;
+        letter-spacing: 0px;
+        padding: 10px;
+    }
 }
